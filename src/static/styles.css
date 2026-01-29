@@ -90,15 +90,31 @@ section h3 {
 }
 
 .activity-card-participants-list {
-  list-style-type: disc;
-  padding-left: 20px;
+  list-style-type: none;
+  padding-left: 0;
   margin: 0;
 }
 
 .activity-card-participants-list li {
-  margin-bottom: 3px;
+  margin-bottom: 6px;
   color: #283593;
   font-size: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.remove-participant {
+  background: transparent;
+  border: none;
+  color: #c62828;
+  cursor: pointer;
+  font-size: 14px;
+  margin-left: 10px;
+}
+
+.remove-participant:hover {
+  color: #b71c1c;
 }
 
 .form-group {
